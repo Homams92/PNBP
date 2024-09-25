@@ -14,3 +14,6 @@ Route::get('/blog', function () {
 Route::get('/contact', function () {
     return view('contact', ['title' => 'contact']);
 });
+Route::get('show', function () {
+    return view('show');
+});
